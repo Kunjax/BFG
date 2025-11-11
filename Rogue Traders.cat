@@ -28,19 +28,16 @@
         <categoryLink id="968d-2c3a-df1a-e2bb" name="Orbital Defence" hidden="false" targetId="90ac-0bee-0c90-be27" primary="false"/>
         <categoryLink id="6859-c08a-20f5-2fu2" name="Ordnance" hidden="false" targetId="e70d-1bf2-7ea2-276a" primary="false"/>
 		<categoryLink name="Transports" hidden="false" id="c507-645c-d4a8-8888" targetId="9624-17a2-bfd7-6666">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="43b9-838a-0c0b-a444"/>
+          </constraints>
           <modifiers>
-            <modifier type="increment" field="d299-f2f2-e1bf-cc2" value="1.0">
+            <modifier type="increment" value="1" field="43b9-838a-0c0b-a444">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1042-e458-4e02-a537" repeats="1" roundUp="false"/>
+                <repeat value="3" repeats="1" field="selections" scope="parent" childId="9624-17a2-bfd7-6666" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
               </repeats>
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1042-e458-4e02-a537" type="greaterThan"/>
-              </conditions>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d299-f2f2-e1bf-cc02" type="min"/>
-          </constraints>
         </categoryLink>
 	  </categoryLinks>
     </forceEntry>
