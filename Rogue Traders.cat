@@ -1112,6 +1112,37 @@ When included in a Rogue Trader escort squadron and not being used as a transpor
         <cost name="pts" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
+	<selectionEntry id="808d-eb40-20f4-9999" name="Veteran Rogue Trader" page="" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="661a-3fd4-b558-41c3" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d531-9cc3-a27f-5287" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="dda9-3d37-da5a-5d68" name="Veteran Rogue Trader" publicationId="5766-7751-d146-0800" page="137" hidden="false" typeId="436f6d6d616e64657223232344415441232323" typeName="Commander">
+          <characteristics>
+            <characteristic name="Leadership" typeId="4c65616465727368697023232344415441232323">9</characteristic>
+            <characteristic name="Re-rolls" typeId="52652d726f6c6c7323232344415441232323">1</characteristic>
+            <characteristic name="Pg." typeId="50672e23232344415441232323"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d5dc-e928-849d-444a" name="Fleet Commander" hidden="false" targetId="466c65657420436f6d6d616e6465727323232344415441232323" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50"/>
+      </costs>
+    </selectionEntry>	
     <selectionEntry id="12ba-928c-7789-740b" name="Tyrant Class Cruiser" publicationId="11f0-17d1-e4d2-1018" page="110" hidden="true" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
