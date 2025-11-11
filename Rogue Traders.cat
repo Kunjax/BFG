@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="649a-1d2a-f6af-1934" name="Rogue Traders" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="649a-1d2a-f6af-1934" name="Rogue Traders" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <forceEntries>
-  	<forceEntry id="661a-3fd4-b558-41c3" name="Rogue Trader Exploration Fleet List" hidden="false">
+	<forceEntry id="661a-3fd4-b558-41c3" name="Rogue Trader Exploration Fleet List" hidden="false">
       <categoryLinks>
         <categoryLink id="a62c-9db6-934a-b999" name="Fleet Commander" hidden="false" targetId="466c65657420436f6d6d616e6465727323232344415441232323" primary="false">
           <constraints>
@@ -1072,7 +1072,7 @@ When included in a Rogue Trader escort squadron and not being used as a transpor
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="8136-1e68-0311-94fc" name="New CategoryLink" hidden="false" targetId="466c65657420436f6d6d616e6465727323232344415441232323" primary="true"/>
+        <categoryLink id="8136-1e68-0311-94fc" name="Fleet Commander" hidden="false" targetId="466c65657420436f6d6d616e6465727323232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c81c-ac6e-1ff2-4430" name="Extra Re-rolls" hidden="false" collective="false" import="true" defaultSelectionEntryId="b919-0af0-0dba-a3d4">
@@ -1142,7 +1142,14 @@ When included in a Rogue Trader escort squadron and not being used as a transpor
       <costs>
         <cost name="pts" typeId="points" value="50"/>
       </costs>
-    </selectionEntry>	
+    </selectionEntry>
+	
+	
+	
+	
+	
+	
+	
     <selectionEntry id="12ba-928c-7789-740b" name="Tyrant Class Cruiser" publicationId="11f0-17d1-e4d2-1018" page="110" hidden="true" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
