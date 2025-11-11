@@ -27,7 +27,7 @@
         <categoryLink id="5cec-6a32-19f4-7b88" name="Cruisers" hidden="false" targetId="1042-e458-4e02-a537" primary="false"/>
         <categoryLink id="968d-2c3a-df1a-e2bb" name="Orbital Defence" hidden="false" targetId="90ac-0bee-0c90-be27" primary="false"/>
         <categoryLink id="6859-c08a-20f5-2fu2" name="Ordnance" hidden="false" targetId="e70d-1bf2-7ea2-276a" primary="false"/>
-		<categoryLink name="Transports" hidden="false" id="c507-645c-d4a8-8888" targetId="9624-17a2-bfd7-6666">
+		<categoryLink id="c507-645c-d4a8-8888" name="Transports" hidden="false" targetId="9624-17a2-bfd7-6666">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="43b9-838a-0c0b-a444"/>
           </constraints>
@@ -689,8 +689,18 @@ Starhawks: 20cm</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="aa24-ef7b-08c8-a8de" name="Cargo Transport" hidden="true" collective="false" import="true" type="model">
-              <profiles>
-                <profile id="3d9b-3516-0d76-7a05" name="Cargo Transport" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+				<costs>
+					<cost name="pts" typeId="points" value="10.0"/>
+				</costs>
+				<modifiers>
+				    <modifier type="set-primary" value="9624-17a2-bfd7-6666" field="category">
+						<conditions>
+							<condition type="instanceOf" value="1" field="selections" scope="force" childId="661a-3fd4-b558-41c3" shared="true" includeChildSelections="true"/>
+						</conditions>
+					</modifier>
+				</modifiers>
+				<profiles>
+					<profile id="3d9b-3516-0d76-7a05" name="Cargo Transport" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <characteristics>
                     <characteristic name="Type" typeId="5479706523232344415441232323">Escort</characteristic>
                     <characteristic name="Hits" typeId="4869747323232344415441232323">1</characteristic>
@@ -701,30 +711,27 @@ Starhawks: 20cm</characteristic>
                     <characteristic name="Turrets" typeId="5475727265747323232344415441232323">1</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="c792-fcb5-3df4-f3e3" name="Cargo Transport Weapons Battery" hidden="false" typeId="41726d616d656e7423232344415441232323" typeName="Armament">
+					<profile id="c792-fcb5-3df4-f3e3" name="Cargo Transport Weapons Battery" hidden="false" typeId="41726d616d656e7423232344415441232323" typeName="Armament">
                   <characteristics>
                     <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
                     <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
                     <characteristic name="Fire Arc" typeId="466972652041726323232344415441232323">Left/Front/Right</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="5474-8992-f97e-aed7" name="Cargo Transport Prow Torpedoes" hidden="false" typeId="41726d616d656e7423232344415441232323" typeName="Armament">
+					<profile id="5474-8992-f97e-aed7" name="Cargo Transport Prow Torpedoes" hidden="false" typeId="41726d616d656e7423232344415441232323" typeName="Armament">
                   <characteristics>
                     <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
                     <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
                     <characteristic name="Fire Arc" typeId="466972652041726323232344415441232323">Front</characteristic>
                   </characteristics>
                 </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="f559-c4b8-93e4-550c" name="Torpedoes" hidden="false" targetId="8103-25d2-5412-2542" type="rule"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="73f9-9d6c-871b-39d1" name="New CategoryLink" hidden="false" targetId="4573636f72747323232344415441232323" primary="true"/>
-              </categoryLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-              </costs>
+				</profiles>
+				<infoLinks>
+					<infoLink id="f559-c4b8-93e4-550c" name="Torpedoes" hidden="false" targetId="8103-25d2-5412-2542" type="rule"/>
+				</infoLinks>
+				<categoryLinks>
+					<categoryLink id="73f9-9d6c-871b-39d1" name="New CategoryLink" hidden="false" targetId="4573636f72747323232344415441232323" primary="true"/>
+				</categoryLinks>
             </selectionEntry>
             <selectionEntry id="efff-5ad0-72f5-a479" name="Rogue Trader Cargo Vessel" hidden="true" collective="false" import="true" type="model">
               <profiles>
