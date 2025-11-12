@@ -71,7 +71,7 @@ The additional ships compendium cites it&apos;s sources so site those instead of
         <infoLink id="4060-83a5-ec70-4915" name="*DAMAGE" hidden="false" targetId="b75c-180f-abe0-73bd" type="profile"/>
       </infoLinks>
     </categoryEntry>
-    <categoryEntry id="4573636f72747323232344415441232323" name="Escort" publicationId="b161-6b4c-e770-9ab2" hidden="false"/>
+    <categoryEntry id="4573636f72747323232344415441232323" name="Escortia" publicationId="b161-6b4c-e770-9ab2" hidden="false"/>
     <categoryEntry id="5370656369616c23232344415441232323" name="Special" publicationId="b161-6b4c-e770-9ab2" hidden="false">
       <infoLinks>
         <infoLink id="8694-169f-3fb8-a107" name="*DAMAGE" hidden="false" targetId="b75c-180f-abe0-73bd" type="profile"/>
