@@ -3,40 +3,15 @@
   <forceEntries>
 	<forceEntry id="661a-3fd4-b558-41c3" name="Rogue Trader Exploration Fleet List" hidden="false">
       <categoryLinks>
-        <categoryLink id="a62c-9db6-934a-b999" name="Fleet Commander" hidden="false" targetId="466c65657420436f6d6d616e6465727323232344415441232323" primary="false">
-        <categoryLink id="caa3-bfda-ce9c-9caa" name="Escort" hidden="false" targetId="4573636f72747323232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="d299-f2f2-e1bf-cc02" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1042-e458-4e02-a537" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1042-e458-4e02-a537" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d299-f2f2-e1bf-cc02" type="min"/>
-          </constraints>
-        </categoryLink>
+        <categoryLink id="a62c-9db6-934a-b999" name="Fleet Commander" hidden="false" targetId="466c65657420436f6d6d616e6465727323232344415441232323" primary="false"/>
+        <categoryLink id="caa3-bfda-ce9c-9caa" name="Escort" hidden="false" targetId="4573636f72747323232344415441232323" primary="false"/>
         <categoryLink id="c0ca-d249-246c-a666" name="Special" hidden="false" targetId="5370656369616c23232344415441232323" primary="false"/>
         <categoryLink id="5cec-6a32-19f4-7b88" name="Cruisers" hidden="false" targetId="1042-e458-4e02-a537" primary="false"/>
         <categoryLink id="968d-2c3a-df1a-e2bb" name="Orbital Defence" hidden="false" targetId="90ac-0bee-0c90-be27" primary="false"/>
         <categoryLink id="6859-c08a-20f5-2fu2" name="Ordnance" hidden="false" targetId="e70d-1bf2-7ea2-276a" primary="false"/>
-		<categoryLink id="c507-645c-d4a8-8888" name="Transports" hidden="false" targetId="9624-17a2-bfd7-6666">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="43b9-838a-0c0b-a444"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="43b9-838a-0c0b-a444">
-              <repeats>
-                <repeat value="3" repeats="1" field="selections" scope="parent" childId="9624-17a2-bfd7-6666" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
+		<categoryLink id="c507-645c-d4a8-8888" name="Transports" hidden="false" targetId="90ac-0bee-0c90-be00"/>
 	  </categoryLinks>
-    </forceEntry>y>
+    </forceEntry>
     <forceEntry id="837f-0fd6-b211-41c3" name="Wolf Pack Human Pirates" hidden="false">
       <categoryLinks>
         <categoryLink id="a62c-9db6-934a-a982" name="Fleet Commander" hidden="false" targetId="466c65657420436f6d6d616e6465727323232344415441232323" primary="false">
