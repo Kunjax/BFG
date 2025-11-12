@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="649a-1d2a-f6af-1934" name="Rogue Traders v0.003" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="649a-1d2a-f6af-1934" name="Rogue Traders v0.004" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <forceEntries>
 	<forceEntry id="837f-0fd6-b211-41c3" name="Rogue Trader Exploration Fleet List" hidden="false">
       <categoryLinks>
@@ -1780,4 +1780,5 @@ Pirate fleets have an attack rating of 3. When selecting scenarios, Pirates alwa
       </characteristics>
     </profile>
   </sharedProfiles>
+
 </catalogue>
