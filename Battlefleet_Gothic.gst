@@ -95,6 +95,7 @@ The additional ships compendium cites it&apos;s sources so site those instead of
     </categoryEntry>
     <categoryEntry id="e70d-1bf2-7ea2-276a" name="Ordnance" publicationId="b161-6b4c-e770-9ab2" hidden="false"/>
     <categoryEntry id="90ac-0bee-0c90-be27" name="Orbital Defence" publicationId="11f0-17d1-e4d2-1018" page="141" hidden="false"/>
+    <categoryEntry id="90ac-0bee-0c90-be00" name="Transport" hidden="false"/>
     <categoryEntry id="9624-17a2-bfd7-6420" name="Reserves" hidden="false">
       <comment>It looks like to reserves to work conditions will need to be made for ships to change from crusier to reserves when they are available as reserves in order for them to validate meeting the reserves requirement. </comment>
     </categoryEntry>
