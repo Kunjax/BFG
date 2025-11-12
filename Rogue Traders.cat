@@ -4,7 +4,7 @@
 	<forceEntry id="661a-3fd4-b558-41c3" name="Rogue Trader Exploration Fleet List" hidden="false">
       <categoryLinks>
         <categoryLink id="a62c-9db6-934a-b999" name="Fleet Commander" hidden="false" targetId="466c65657420436f6d6d616e6465727323232344415441232323" primary="false"/>
-        <categoryLink id="caa3-bfda-ce9c-9caa" name="Escort" hidden="false" targetId="4573636f72747323232344415441232323" primary="false"/>
+        <categoryLink id="caa3-bfda-ce9c-9caa" name="Escortia" hidden="false" targetId="4573636f72747323232344415441232323" primary="false"/>
         <categoryLink id="c0ca-d249-246c-a666" name="Special" hidden="false" targetId="5370656369616c23232344415441232323" primary="false"/>
         <categoryLink id="5cec-6a32-19f4-7b88" name="Cruisers" hidden="false" targetId="1042-e458-4e02-a537" primary="false"/>
         <categoryLink id="968d-2c3a-df1a-e2bb" name="Orbital Defence" hidden="false" targetId="90ac-0bee-0c90-be27" primary="false"/>
