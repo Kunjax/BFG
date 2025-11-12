@@ -4,10 +4,6 @@
 	<forceEntry id="661a-3fd4-b558-41c3" name="Rogue Trader Exploration Fleet List" hidden="false">
       <categoryLinks>
         <categoryLink id="a62c-9db6-934a-b999" name="Fleet Commander" hidden="false" targetId="466c65657420436f6d6d616e6465727323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b90-7186-e999-fc95" type="max"/>
-          </constraints>
-        </categoryLink>
         <categoryLink id="caa3-bfda-ce9c-9caa" name="Escort" hidden="false" targetId="4573636f72747323232344415441232323" primary="false">
           <modifiers>
             <modifier type="increment" field="d299-f2f2-e1bf-cc02" value="1.0">
@@ -40,7 +36,7 @@
           </modifiers>
         </categoryLink>
 	  </categoryLinks>
-    </forceEntry>
+    </forceEntry>y>
     <forceEntry id="837f-0fd6-b211-41c3" name="Wolf Pack Human Pirates" hidden="false">
       <categoryLinks>
         <categoryLink id="a62c-9db6-934a-a982" name="Fleet Commander" hidden="false" targetId="466c65657420436f6d6d616e6465727323232344415441232323" primary="false">
