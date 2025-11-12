@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="649a-1d2a-f6af-1934" name="Rogue Traders" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="649a-1d2a-f6af-1934" name="Rogue Traders v0.001" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <forceEntries>
 	<forceEntry id="661a-3fd4-b558-41c3" name="Rogue Trader Exploration Fleet List" hidden="false">
       <categoryLinks>
@@ -995,7 +995,7 @@ When included in a Rogue Trader escort squadron and not being used as a transpor
         <cost name="pts" typeId="points" value="180.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="808d-eb40-20f4-9942" name="Pirate Captain" page="" hidden="true" collective="false" import="true" type="upgrade">
+    <selectionEntry id="808d-eb40-20f4-9942" name="Pirate Captain Yarrrrr" page="" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="7037-0f23-1074-f9c7" value="1.0">
           <repeats>
@@ -1026,7 +1026,7 @@ When included in a Rogue Trader escort squadron and not being used as a transpor
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d39-b7f1-c2f7-5771" type="min"/>
       </constraints>
       <profiles>
-        <profile id="2131-4beb-1478-a62f" name="Pirate Captain" publicationId="5766-7751-d146-0800" page="91" hidden="false" typeId="436f6d6d616e64657223232344415441232323" typeName="Commander">
+        <profile id="2131-4beb-1478-a62f" name="Pirate Captain grrrrr" publicationId="5766-7751-d146-0800" page="91" hidden="false" typeId="436f6d6d616e64657223232344415441232323" typeName="Commander">
           <modifiers>
             <modifier type="increment" field="52652d726f6c6c7323232344415441232323" value="1">
               <conditions>
