@@ -111,7 +111,11 @@ The additional ships compendium cites it&apos;s sources so site those instead of
     </categoryEntry>
     <categoryEntry name="Battleship Reserves" id="0649-11fd-71d2-3226" hidden="false"/>
     <categoryEntry name="Escort Reserves" id="1a51-6599-e353-c949" hidden="false"/>
-    <categoryEntry name="Transports" id="90ac-0bee-0c90-be00" hidden="false"/>
+    <categoryEntry name="Transports" id="90ac-0bee-0c90-be00" hidden="false">
+      <infoLinks>
+        <infoLink id="4060-83a5-ec70-8888" name="*DAMAGE" hidden="false" targetId="b75c-180f-abe0-73bd" type="profile"/>
+      </infoLinks>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7529-da04-0225-31de" name="Unbound" publicationId="137d-dbad-5653-19f2" hidden="true">
