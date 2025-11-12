@@ -355,6 +355,18 @@ Starhawks: 20cm</characteristic>
           <selectionEntries>
             <selectionEntry id="6821-4f96-d4dd-4123" name="Iconoclast Class Destroyer" hidden="false" collective="false" import="true" type="unit">
               <comment>CHAOS</comment>
+			  <modifiers>
+				<modifier type="set" field="hidden" value="false">
+				  <conditionGroups>
+					<conditionGroup type="or">
+					  <conditions>
+						<condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7529-da04-0225-31de" type="instanceOf"/>
+						<condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="837f-0fd6-b211-41c3" type="instanceOf"/>
+					  </conditions>
+					</conditionGroup>
+				  </conditionGroups>
+				</modifier>
+			</modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a6e-6d51-b599-32d4" type="max"/>
               </constraints>
@@ -389,6 +401,18 @@ Starhawks: 20cm</characteristic>
               <constraints>
                 <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f22-af27-868c-1150" type="max"/>
               </constraints>
+			  <modifiers>
+				<modifier type="set" field="hidden" value="false">
+				  <conditionGroups>
+					<conditionGroup type="or">
+					  <conditions>
+						<condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7529-da04-0225-31de" type="instanceOf"/>
+						<condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="837f-0fd6-b211-41c3" type="instanceOf"/>
+					  </conditions>
+					</conditionGroup>
+				  </conditionGroups>
+				</modifier>
+			</modifiers>			  
               <profiles>
                 <profile id="9b22-3857-8d28-609d" name="Idolator Profile" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <characteristics>
@@ -424,6 +448,18 @@ Starhawks: 20cm</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="c5d3-3a1b-4c3c-a2d7" name="Recommissioned Escort" hidden="false" collective="false" import="true" type="model">
+			  <modifiers>
+				<modifier type="set" field="hidden" value="false">
+				  <conditionGroups>
+					<conditionGroup type="or">
+					  <conditions>
+						<condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7529-da04-0225-31de" type="instanceOf"/>
+						<condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="837f-0fd6-b211-41c3" type="instanceOf"/>
+					  </conditions>
+					</conditionGroup>
+				  </conditionGroups>
+				</modifier>
+			</modifiers>			
               <profiles>
                 <profile id="6cc3-1e8d-f9f6-1c11" name="Recommissioned Escort" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <characteristics>
@@ -508,7 +544,7 @@ Starhawks: 20cm</characteristic>
             </selectionEntry>
             <selectionEntry id="efff-5ad0-72f5-a479" name="Cargo Vessel" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="db4c-ad48-e2fe-bd15" name="Rogue Trader Cargo Vessel" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+                <profile id="db4c-ad48-e2fe-bd15" name="Cargo Vessel" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <characteristics>
                     <characteristic name="Type" typeId="5479706523232344415441232323">Escort</characteristic>
                     <characteristic name="Hits" typeId="4869747323232344415441232323">1</characteristic>
@@ -519,7 +555,7 @@ Starhawks: 20cm</characteristic>
                     <characteristic name="Turrets" typeId="5475727265747323232344415441232323">1</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="d5d6-37af-f869-3dd8" name="Rogue Trader Cargo Vessel Weapons Battery" hidden="false" typeId="41726d616d656e7423232344415441232323" typeName="Armament">
+                <profile id="d5d6-37af-f869-3dd8" name="Cargo Vessel Weapons Battery" hidden="false" typeId="41726d616d656e7423232344415441232323" typeName="Armament">
                   <characteristics>
                     <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
                     <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">1</characteristic>
@@ -894,7 +930,7 @@ When included in a Rogue Trader escort squadron and not being used as a transpor
                 </modifier>
               </modifiers>
 			  <profiles>
-                <profile id="db4c-ad48-e2fe-bd77" name="Rogue Trader Cargo Vessel" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+                <profile id="db4c-ad48-e2fe-bd77" name="Armed Cargo Vessel" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <characteristics>
                     <characteristic name="Type" typeId="5479706523232344415441232323">Escort</characteristic>
                     <characteristic name="Hits" typeId="4869747323232344415441232323">1</characteristic>
@@ -905,7 +941,7 @@ When included in a Rogue Trader escort squadron and not being used as a transpor
                     <characteristic name="Turrets" typeId="5475727265747323232344415441232323">1</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="d5d6-77af-f869-3dd8" name="Rogue Trader Cargo Vessel Weapons Battery" hidden="false" typeId="41726d616d656e7423232344415441232323" typeName="Armament">
+                <profile id="d5d6-77af-f869-3dd8" name="Armed Cargo Vessel Weapons Battery" hidden="false" typeId="41726d616d656e7423232344415441232323" typeName="Armament">
                   <characteristics>
                     <characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
                     <characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">1</characteristic>
@@ -1513,18 +1549,14 @@ When included in a Rogue Trader escort squadron and not being used as a transpor
         <cost name="pts" typeId="points" value="145.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fd6d-d4b0-dd4a-a44a"  name="Lunar Class Cruiser" publicationId="11f0-17d1-e4d2-1018" page="110"  hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="fd6d-d4b0-dd4a-a44a" name="Lunar Class Cruiser" publicationId="11f0-17d1-e4d2-1018" page="110"  hidden="true" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="set" value="false" field="hidden">
+        <modifier type="set" field="hidden" value="false">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition type="instanceOf" value="0" field="selections" scope="force" childId="eb02-283b-cb5e-e4ea" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <condition type="instanceOf" value="0" field="selections" scope="force" childId="7529-da04-0225-31de" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <condition type="instanceOf" value="0" field="selections" scope="force" childId="8ed8-4a6a-2f2b-833d" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <condition type="instanceOf" value="0" field="selections" scope="force" childId="24a3-f4ab-d475-1a63" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <condition type="instanceOf" value="0" field="selections" scope="force" childId="e874-e62b-1c36-7aec" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <condition type="instanceOf" value="0" field="selections" scope="force" childId="c52d-5b11-b7cd-f654" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7529-da04-0225-31de" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="837f-0fd6-b211-41c3" type="instanceOf"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1644,13 +1676,13 @@ When included in a Rogue Trader escort squadron and not being used as a transpor
       </costs>
     </selectionEntry>
     <selectionEntry id="60b5-c127-2469-8e90" name="Siluria Class Light Cruiser" publicationId="5766-7751-d146-0800" page="43" hidden="false"  collective="false" import="true" type="model">
-	   <modifiers>
-        <modifier type="set" value="false" field="hidden">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition type="instanceOf" value="0" field="selections" scope="force" childId="7529-da04-0225-31de" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <condition type="instanceOf" value="0" field="selections" scope="force" childId="e874-e62b-1c36-7aec" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7529-da04-0225-31de" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="837f-0fd6-b211-41c3" type="instanceOf"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
