@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="649a-1d2a-f6af-1934" name="Rogue Traders v0.002" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="649a-1d2a-f6af-1934" name="Rogue Traders v0.003" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <forceEntries>
 	<forceEntry id="661a-3fd4-b558-41c3" name="Rogue Trader Exploration Fleet List" hidden="false">
       <categoryLinks>
@@ -922,82 +922,6 @@ When included in a Rogue Trader escort squadron and not being used as a transpor
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-	<selectionEntry id="5c97-73cc-62c3-5e55" name="Transport Squadron" hidden="false" collective="false" import="true" type="unit">
-		<categoryLinks>
-			<categoryLink id="87cf-ef19-da42-8888" hidden="false" targetId="90ac-0bee-0c90-be00" primary="true"/>
-		</categoryLinks>
-		<selectionEntryGroups>
-			<selectionEntryGroup id="900f-2a84-18d0-8888" name="Transports" hidden="false" collective="false" import="true">
-				<constraints>
-					<constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aace-8d0d-309e-ccbd" type="min"/>
-					<constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8d0e-c9e0-3b0d-3718" type="max"/>
-				</constraints>
-				<categoryLinks>
-					<categoryLink id="5d08-a9d4-4b19-88fe" name="Transports" hidden="false" targetId="90ac-0bee-0c90-be00" primary="false"/>
-				</categoryLinks>
-				<selectionEntries>
-					<selectionEntry id="aa88-ef7b-08c8-a8de" name="Cargo Transport" hidden="true" collective="false" import="true" type="model">
-						<costs>
-							<cost name="pts" typeId="points" value="10.0"/>
-						</costs>
-						<modifiers>
-							<modifier type="set" field="hidden" value="false">
-							<conditionGroups>
-								<conditionGroup type="or">
-									<conditions>
-										<condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7529-da04-0225-31de" type="instanceOf"/>
-										<condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="661a-3fd4-b558-41c3" type="instanceOf"/>
-									</conditions>
-								</conditionGroup>
-							</conditionGroups>
-							</modifier>
-						</modifiers>
-						<profiles>
-							<profile id="3d9b-3516-0d76-7a88" name="Cargo Transport" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
-						<characteristics>
-							<characteristic name="Type" typeId="5479706523232344415441232323">Transport</characteristic>
-							<characteristic name="Hits" typeId="4869747323232344415441232323">1</characteristic>
-							<characteristic name="Speed" typeId="537065656423232344415441232323">30cm</characteristic>
-							<characteristic name="Turns" typeId="5475726e7323232344415441232323">90°</characteristic>
-							<characteristic name="Shields" typeId="536869656c647323232344415441232323">1</characteristic>
-							<characteristic name="Armour" typeId="41726d6f757223232344415441232323">5+</characteristic>
-							<characteristic name="Turrets" typeId="5475727265747323232344415441232323">1</characteristic>
-						</characteristics>
-							</profile>
-							<profile id="c792-fcb5-3df4-f8e8" name="Cargo Transport Weapons Battery" hidden="false" typeId="41726d616d656e7423232344415441232323" typeName="Armament">
-						<characteristics>
-							<characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-							<characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
-							<characteristic name="Fire Arc" typeId="466972652041726323232344415441232323">Left/Front/Right</characteristic>
-						</characteristics>
-							</profile>
-							<profile id="5474-8992-f88e-aed7" name="Cargo Transport Prow Torpedoes" hidden="false" typeId="41726d616d656e7423232344415441232323" typeName="Armament">
-						<characteristics>
-							<characteristic name="Range/Speed" typeId="52616e67652f537065656423232344415441232323">30cm</characteristic>
-							<characteristic name="Firepower/Str" typeId="46697265706f7765722f53747223232344415441232323">2</characteristic>
-							<characteristic name="Fire Arc" typeId="466972652041726323232344415441232323">Front</characteristic>
-						</characteristics>
-							</profile>
-						</profiles>
-						<infoLinks>
-							<infoLink id="f559-c4b8-93e4-888c" name="Torpedoes" hidden="false" targetId="8103-25d2-5412-2542" type="rule"/>
-						</infoLinks>
-						<categoryLinks>
-							<categoryLink id="152e-c588-98e0-8b8e" name="New CategoryLink" hidden="false" targetId="90ac-0bee-0c90-be00" primary="true"/>
-						</categoryLinks>
-					</selectionEntry>
-					<selectionEntry>
-					</selectionEntry>
-				</selectionEntries>
-			</selectionEntryGroup>	  
-		</selectionEntryGroups>
-		<entryLinks>
-			<entryLink id="69fb-d7eb-41fc-8888" name="Leadership" hidden="false" collective="false" import="true" targetId="72b9-2803-264f-57f0" type="selectionEntryGroup"/>
-		</entryLinks>
-		<costs>
-			<cost name="pts" typeId="points" value="0.0"/>
-		</costs>
-	</selectionEntry>
     <selectionEntry id="626c-a955-8fc1-44a1" name="Gothic Class Cruiser" publicationId="11f0-17d1-e4d2-1018" page="111" hidden="true" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
