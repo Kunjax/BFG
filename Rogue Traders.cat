@@ -643,7 +643,20 @@ When included in a Rogue Trader escort squadron and not being used as a transpor
         <categoryLink id="b307-3fcc-d0e9-c923" name="New CategoryLink" hidden="false" targetId="1042-e458-4e02-a537" primary="true"/>
         <categoryLink id="d0df-f3ea-4d8b-9965" name="CV" hidden="false" targetId="e0c6-bde4-7055-1e6e" primary="false"/>
       </categoryLinks>
-      <selectionEntryGroups>
+      <selectionEntries>
+	    <selectionEntry id="43cd-cdd2-3c83-ffff" name="Xenotech Systems" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <constraints>
+                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ab73-bf67-3498-88ff" type="max"/>
+            </constraints>
+            <entryLinks>
+                <entryLink id="34c8-b329-96a1-fae5" name="Xenotech Systems (D6)" hidden="false" collective="false" import="true" targetId="80dd-a34e-9d3c-9999" type="selectionEntryGroup"/>
+            </entryLinks>
+             <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+            </costs>
+        </selectionEntry>
+	   </selectionEntries>  
+	  <selectionEntryGroups>
         <selectionEntryGroup id="6cc3-1c30-1c83-3b72" name="Varient" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2192-5476-2d08-22ec" type="max"/>
