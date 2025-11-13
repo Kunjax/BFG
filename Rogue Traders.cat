@@ -1388,6 +1388,7 @@ When included in a Rogue Trader escort squadron and not being used as a transpor
 When included in a Rogue Trader escort squadron and not being used as a transport in scenarios that require them, it offers +1Ld to Reload Ordnance by ensuring escorts have a ready supply of torpedoes before the battle. This effect is not cumulative if there is more than one Rogue Trader cargo vessel in the escort squadron</characteristic>
                   </characteristics>
                 </profile>
+				</profiles>
               <categoryLinks>
                 <categoryLink id="77ec-e149-a946-jjja" name="New CategoryLink" hidden="false" targetId="90ac-0bee-0c90-be00" primary="true"/>
               </categoryLinks>
