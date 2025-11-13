@@ -1846,7 +1846,7 @@ Aspect Warrior Fighting Crews as chosen from the fleet list, adding +2 to their 
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8392-0b57-c8eb-ab28" name="Escort Squardon" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="8392-0b57-c8eb-ab28" name="Escort Squadron" hidden="true" collective="false" import="true" type="unit">
       <comment>Core Eldar</comment>
       <modifiers>
         <modifier type="set" field="hidden" value="false">
@@ -1885,7 +1885,7 @@ Aspect Warrior Fighting Crews as chosen from the fleet list, adding +2 to their 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ed59-d6ad-7b1e-e2c3" name="Escort Squardon Shadowhunter" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="ed59-d6ad-7b1e-e2c3" name="Escort Squadron Shadowhunter" hidden="true" collective="false" import="true" type="unit">
       <comment>Iyanden eldar fleet</comment>
       <modifiers>
         <modifier type="set" field="hidden" value="false">
